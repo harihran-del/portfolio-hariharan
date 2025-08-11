@@ -13,3 +13,11 @@ This portfolio website is built using **React**, **TypeScript**, **Vite**, and *
 ### 1️⃣ Clone the repository
 ```sh
 git clone https://github.com/harihran-del/portfolio-hariharan.git
+
+
+
+---
+
+If you want, I can also **push this updated README.md** to your GitHub repo so it replaces the Lovable-generated one instantly.  
+Do you want me to prepare that push command for you?
+
