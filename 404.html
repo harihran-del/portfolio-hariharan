@@ -28,6 +28,14 @@
     <!-- Important for GitHub Pages -->
     <base href="/portfolio-hariharan/" />
 
+    <!-- GitHub Pages React Router Redirect Fix -->
+    <script>
+        if (sessionStorage.redirect) {
+            history.replaceState(null, null, sessionStorage.redirect);
+            sessionStorage.removeItem('redirect');
+        }
+    </script>
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
